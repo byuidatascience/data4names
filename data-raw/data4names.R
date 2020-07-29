@@ -43,6 +43,18 @@ dpr_document(names_year, extension = ".md.R", export_folder = usethis::proj_get(
                                 AK = "Total for state",
                                 Total = "Total for the US"))
 
+dpr_document(names_prob, extension = ".md.R", export_folder = usethis::proj_get(),
+             object_name = "names_prob", title = "Birth names gender",
+             description = "A cleaned data set of birth names for gender and US states",
+             source = "https://data.world/government/us-baby-names-by-state",
+             var_details = list(name = "Baby name",
+                                number_female = "Number of females",
+                                number_male = "Number of males",
+                                prob_female = "Probability the name is female",
+                                prob_male = "Probability the name is male",
+                                AK = "Total for state"))
+
+
 dpr_readme(usethis::proj_get(), package_name_text, user)
 
 dpr_write_script(folder_dir = package_path, r_read = "scripts_general/names_package.R", 
