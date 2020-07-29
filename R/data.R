@@ -1,0 +1,69 @@
+#'
+#' @title Birth names counts by year for each US state
+#' @description A cleaned data set of birth names by year with counts for US states as well
+#' @format A data frame with columns:
+#' \describe{
+#'  \item{name}{The variable is character. Baby name}
+#'  \item{year}{The variable is numeric. Birth year}
+#'  \item{AK}{The variable is numeric. Total for state}
+#'  \item{AL}{The variable is numeric. }
+#'  \item{AR}{The variable is numeric. }
+#'  \item{AZ}{The variable is numeric. }
+#'  \item{CA}{The variable is numeric. }
+#'  \item{CO}{The variable is numeric. }
+#'  \item{CT}{The variable is numeric. }
+#'  \item{DC}{The variable is numeric. }
+#'  \item{DE}{The variable is numeric. }
+#'  \item{FL}{The variable is numeric. }
+#'  \item{GA}{The variable is numeric. }
+#'  \item{HI}{The variable is numeric. }
+#'  \item{IA}{The variable is numeric. }
+#'  \item{ID}{The variable is numeric. }
+#'  \item{IL}{The variable is numeric. }
+#'  \item{IN}{The variable is numeric. }
+#'  \item{KS}{The variable is numeric. }
+#'  \item{KY}{The variable is numeric. }
+#'  \item{LA}{The variable is numeric. }
+#'  \item{MA}{The variable is numeric. }
+#'  \item{MD}{The variable is numeric. }
+#'  \item{ME}{The variable is numeric. }
+#'  \item{MI}{The variable is numeric. }
+#'  \item{MN}{The variable is numeric. }
+#'  \item{MO}{The variable is numeric. }
+#'  \item{MS}{The variable is numeric. }
+#'  \item{MT}{The variable is numeric. }
+#'  \item{NC}{The variable is numeric. }
+#'  \item{ND}{The variable is numeric. }
+#'  \item{NE}{The variable is numeric. }
+#'  \item{NH}{The variable is numeric. }
+#'  \item{NJ}{The variable is numeric. }
+#'  \item{NM}{The variable is numeric. }
+#'  \item{NV}{The variable is numeric. }
+#'  \item{NY}{The variable is numeric. }
+#'  \item{OH}{The variable is numeric. }
+#'  \item{OK}{The variable is numeric. }
+#'  \item{OR}{The variable is numeric. }
+#'  \item{PA}{The variable is numeric. }
+#'  \item{RI}{The variable is numeric. }
+#'  \item{SC}{The variable is numeric. }
+#'  \item{SD}{The variable is numeric. }
+#'  \item{TN}{The variable is numeric. }
+#'  \item{TX}{The variable is numeric. }
+#'  \item{UT}{The variable is numeric. }
+#'  \item{VA}{The variable is numeric. }
+#'  \item{VT}{The variable is numeric. }
+#'  \item{WA}{The variable is numeric. }
+#'  \item{WI}{The variable is numeric. }
+#'  \item{WV}{The variable is numeric. }
+#'  \item{WY}{The variable is numeric. }
+#'  \item{Total}{The variable is numeric. Total for the US}
+#' }
+#' @source \url{https://data.world/government/us-baby-names-by-state}
+#' @examples
+#' \dontrun{
+#' names_year
+#'}
+'names_year'
+
+
+
